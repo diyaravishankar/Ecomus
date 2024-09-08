@@ -46,7 +46,7 @@ function Footer() {
         </div>
       </div>
       <div className="ReservedRights">
-        <p>© 2024 Ecomus Store . All Rights Reserved.</p>
+        <p>© 2024 AgriCom Store . All Rights Reserved.</p>
       </div>
     </>
   );

@@ -4,12 +4,12 @@
 }
 
 .navbar {
-  margin: 15px;
-  padding: 5px;
+  padding-right: 40px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
+  background-color: aliceblue;
 }
 .navbar .rightcompnent ul img {
   width: 25%;
@@ -91,4 +91,16 @@ ul a:hover::after {
 .icons img:hover {
   transform: scale(1.1);
   transition: transform 0.5s;
+}
+
+.title{
+  color: black;
+  font-size: 30px;
+  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";;
+  font-weight: bold;
+}
+
+.title2{
+  color: lightgrey;
+  padding-left: 6px;
 }

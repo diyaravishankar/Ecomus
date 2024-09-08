@@ -81,19 +81,19 @@ function Item(props) {
       <div className="product-details">
         <h1>{item.title}</h1>
         <p className="price">
-          <span className="discounted-price">${item.discount}</span>
-          <span className="original-price">${item.price}</span>
+          <span className="discounted-price">₹{item.discount}</span>
+          <span className="original-price">₹{item.price}</span>
           {100*(item.price-item.discount)/item.price === 0?null:<span className="discount">{parseInt(100*(item.price-item.discount)/item.price)}% OFF</span>}
           
         </p>
         <div className="color-option">
-          <span>Color</span>
-          <div className="color-choice">
+          <span>Quality</span>
+          {/* <div className="color-choice">
             <div className="black" />
             <div className="white" />
-          </div>
+          </div> */}
         </div>
-        <div className="size-option">
+        {/* <div className="size-option">
   <span>Size</span>
   <div className="size-choice">
     {item.variations &&
@@ -108,7 +108,7 @@ function Item(props) {
         </button>
       ))}
   </div>
-</div>
+</div> */}
         <div className="quantity">
           <span>Quantity</span>
           <div className="qty-control">

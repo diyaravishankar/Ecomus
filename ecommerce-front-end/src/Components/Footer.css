@@ -1,14 +1,17 @@
 .Footer
 {
-    margin-top: 15%;
+    padding-top: 20px;
     display: flex;
     justify-content: space-between;
-    border-top: 1px solid  rgb(182, 182, 182); /* Adjust thickness as needed */
+    border-top: 1px solid  rgb(182, 182, 182);
+    background-color: aliceblue;
+     /* Adjust thickness as needed */
 }
 .Right
 {
     width: 50%;
     display: flex;
+    padding-right: 30px;
     justify-content: space-between;
     flex-direction: row;
 }

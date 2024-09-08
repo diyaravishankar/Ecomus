@@ -83,7 +83,9 @@ function Nav(props) {
       <nav className="navbar">
         <div className="rightcompnent">
           <ul>
-            <img src={Logo} alt="Logo" />
+            <h1 className="title">AGRI 
+              <span className="title2">COM</span>
+            </h1>
             <a href="/home">
               <li>Home</li>
             </a>

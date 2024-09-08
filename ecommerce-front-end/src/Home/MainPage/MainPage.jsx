@@ -1,7 +1,7 @@
 import "./MainPage.css";
 import arrow from "../../SVGs/arrow.svg";
 import arrownothovered from "../../SVGs/arrownothovered.svg";
-import collection from "../../SVGs/pexels-jatin-anand-125779.jpg";
+import collection from "../../SVGs/mainimg.jpg";
 
 import { useState } from "react";
 import Product from "../../Components/Product";
@@ -24,11 +24,11 @@ function MainPage(props) {
       <div className="containerr">
         <div className="itemm onee">
           <div className="bigtitle">
-            <p className="largee">Limited Edition</p>
+            <p className="largee">Good Organic</p>
     
-            <p className="largee">Collection</p>
+            <p className="largee">Raw Vegetables</p>
             <p className="textt">
-              Shop exclusive pieces from our limited edition collection
+              Shop exclusive pieces from our organic farms
             </p>
           </div>
 
@@ -50,40 +50,39 @@ function MainPage(props) {
       </div>
       <div className="scrolling-text-container">
         <div className="scrolling-text">
-          LIMITED TIME OFFER: FASHION SALE YOU CAN'T RESIST &nbsp;&nbsp;
-          &nbsp;&nbsp; |&nbsp;&nbsp; &nbsp;&nbsp; FREE SHIPPING AND RETURNS
-          &nbsp;&nbsp; &nbsp;&nbsp;|&nbsp;&nbsp; &nbsp;&nbsp; NEW SEASON, NEW
-          STYLES: FASHION SALE YOU CAN'T MISS
+          Bidding Scheme &nbsp;&nbsp;
+          &nbsp;&nbsp; |&nbsp;&nbsp; &nbsp;&nbsp; Fixed Prices
+          &nbsp;&nbsp; &nbsp;&nbsp;|&nbsp;&nbsp; &nbsp;&nbsp; Blockchain based contracts
         </div>
       </div>
       <div className="Products">
         <Product
           onAddCartClick={props.onAddCartClick}
           className="Productt"
-          photo="Apple-IPhone-14-With-FaceTime-128GB-6GB-RAM_1407_2.jpeg"
-          title={"Ribbed modal T-shirt"}
-          price={"$" + 18.0}
+          photo="Images/wheat.jpg"
+          title={"WHEAT (priced per kg)"}
+          price={"₹" + 20.0}
         />
         <Product
           onAddCartClick={props.onAddCartClick}
           className="Productt"
-          photo="AppleWatchUltra.jpg"
-          title={"Oversized Motif T-shirt"}
-          price={"$" + 18.0}
+          photo="Images/rice.jpg"
+          title={"RICE (priced per kg)"}
+          price={"₹" + 80.0}
         />
         <Product
           onAddCartClick={props.onAddCartClick}
           className="Productt"
-          photo="Samsung-71a43be3abebbcfd157bc81500.jpg"
-          title={"Oversized Printed T-shirt"}
-          price={"$" + 18.0}
+          photo="Images/lentils.jpg"
+          title={"DAAL (priced per kg)"}
+          price={"₹" + 100.0}
         />
         <Product
           onAddCartClick={props.onAddCartClick}
           className="Productt"
-          photo="71VPHir5nhL._AC_SL1500_.jpg"
-          title={"Oversized Smiling T-shirt"}
-          price={"$" + 18.0}
+          photo="Images/vege.webp"
+          title={"Cucumber (priced per kg)"}
+          price={"₹" + 60.0}
         />
       </div>
       <Footer />

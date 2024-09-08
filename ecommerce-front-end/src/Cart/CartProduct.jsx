@@ -247,14 +247,14 @@ useEffect(() => {getPhotos()},[])*/
         <form className="checkout">
           <div className="truck">{truck}</div>
           <p>
-            Buy <s>$75.00 </s>more to enjoy Free Shipping
+            Buy <s>₹75.00 </s>more to enjoy Free Shipping
           </p>
           <p>
-            Do you want a gift wrap? Only <s>$5.00</s>
+            Do you want a gift wrap? Only <s>₹5.00</s>
           </p>
           <div className="subtotal">
             <h3>Subtotal</h3>
-            <h3>${totalPrice}</h3>
+            <h3>₹{totalPrice}</h3>
           </div>
           <p>Taxes and shipping calculated at checkout</p>
           <div className="Paymentmethod">
