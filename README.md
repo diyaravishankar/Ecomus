@@ -1,7 +1,5 @@
-<<<<<<< HEAD
+HEAD
 # Ecomus Website
-
-This project is an e-commerce website developed using React for the frontend and Django REST Framework for the backend. It provides a platform for buyers and sellers to interact, with alot of features.
 
 ## Getting Started
 
