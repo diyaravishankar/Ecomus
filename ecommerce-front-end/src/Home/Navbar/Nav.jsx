@@ -83,8 +83,8 @@ function Nav(props) {
       <nav className="navbar">
         <div className="rightcompnent">
           <ul>
-            <h1 className="title">AGRI 
-              <span className="title2">COM</span>
+            <h1 className="title">AADHATI 
+              
             </h1>
             <a href="/home">
               <li>Home</li>

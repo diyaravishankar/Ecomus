@@ -79,8 +79,8 @@ function Login() {
     return (
     <div className="wrapper">
       <div className="logo">
-        <h1 className="title">AGRI
-          <span className="title2">COM</span>
+        <h1 className="title">AADHATI
+          
         </h1>
       </div>
       <div className="border">
